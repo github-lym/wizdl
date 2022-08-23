@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "266227",
+    "ThreadId": "77844",
+    "Html": "<p>could it use to test WCF?</p>",
+    "PostedDate": "2009-12-11T06:18:29.22-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "276549",
+    "ThreadId": "77844",
+    "Html": "<p>Yes - you can call a wcf service that has http binding (SOAP)</p>",
+    "PostedDate": "2010-01-12T21:53:16.487-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

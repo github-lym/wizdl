@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Migrated from [discussion:this discussion|34823].\n\n1. I would like to have colour coded XML results or, at least, formatted XML outputs, to make it easier to understand the results. \n1. A viewer for Datasets/DataTables, just like the VS2005, would also be nice to have.\n1. Ability to record or pin some of the request properties, to be used in subsequent calls to other methods that have the same request properties. This is very usefull for web services that require on or more parameters with a session ID in every call.  I could help. All the best.",
+    "LastUpdatedDate": "2014-04-09T09:57:44.11-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "wizdl",
+    "ReportedDate": "2013-04-11T08:49:27.24-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Sugestions",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 33958
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

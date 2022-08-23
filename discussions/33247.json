@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "110194",
+    "ThreadId": "33247",
+    "Html": "wizdl works by tweaking (using CodeDOM API) the client side classes generated from a WSDL and makes them fully editable in a property grid.<br>\r\n<br>\r\nThe ServiceDescriptionImporter class that ships with .NET allows you to generate client side code for a WSDL.<br>\r\n<br>\r\nBut the classes it generates have a couple of limitations that makes it impossible to bind them to a GUI.<br>\r\n<br>\r\na. It generates fields instead of properties hence they wont show up in a property grid<br>\r\nb. Even if it generates properties (2.0 version) they <strong><em>still wont be completely editable</em></strong> in a property grid<br>\r\n<br>\r\nUsing the CodeDOM API wizdl:<br>\r\n<ol>\r\n    <li>Promotes fields to properties</li>\r\n    <li>Sticks ExpandableObjectConverter attribute to the properties so that they can be edited easily from a property grid</li>\r\n    <li>Adds a <a href=\"http://www.codeplex.com/wizdl/SourceControl/FileView.aspx?itemId=493691&changeSetId=35383\">custom property editor</a> attribute so that derived class objects can be created and edited</li>\r\n    <li>Adds a <a href=\"http://www.codeplex.com/wizdl/SourceControl/FileView.aspx?itemId=493690&changeSetId=35383\">custom array editor</a> attribute so that arrays can be edited </li>\r\n</ol>\r\nThe meat of the code is in the <a href=\"http://www.codeplex.com/wizdl/SourceControl/FileView.aspx?itemId=493692&changeSetId=35383\">CustomProxyGenerator </a>class<br>\r\n<br>\r\n<strong>Note:</strong><br>\r\nIn .NET 2.0 we can eliminate the CodeDOM stuff and use the TypeDescriptionProvider class to augment properties during run time - but then the code loses all its coolness :-)<br>\r\n<br>\r\n<br>\r\n",
+    "PostedDate": "2008-08-10T07:03:32.153-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

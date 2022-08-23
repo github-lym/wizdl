@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "479166",
+    "ThreadId": "223225",
+    "Html": "<p>When I type in URL in text box and click ok</p>\r\n<p>It display Error message Access Denied, because web service is using windows atuthentication.</p>\r\n<p>Once I make my webservice Annoymous access it works perfect.</p>\r\n<p>How to get this to work for windows authenticated user</p>",
+    "PostedDate": "2010-08-11T08:31:05.87-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "993764",
+    "ThreadId": "223225",
+    "Html": "\r\n<p>Hi,</p>\r\n<p>this issue will be solved in new release as of <a href=\"http://wizdl.codeplex.com/workitem/21806\">\r\n#bugfix 21806#</a>.</p>\r\n<p>Jakub</p>\r\n",
+    "PostedDate": "2013-01-29T10:08:25.28-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

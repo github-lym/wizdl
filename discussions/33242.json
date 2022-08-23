@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "110178",
+    "ThreadId": "33242",
+    "Html": "Will this method of calling webservices result in having a lot of DLL's running around for each service called?<br>\r\n<br>\r\nWhy not just parse the WSDL and amke a SOAP call?<br>\r\n",
+    "PostedDate": "2008-08-10T02:38:29.953-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "110195",
+    "ThreadId": "33242",
+    "Html": "Hi Dewey<br>\r\n<br>\r\nYou are right in that the implementation creates proxy DLLs in the temporary directory.<br>\r\n<br>\r\nUnfortunately the proxy classes cannot reside in a in memory assembly since SOAP/XML serialization is involved.<br>\r\n<br>\r\nBut parsing WSDL and making SOAP calls is not a trivial thing - again all the heavy work is already done by the ServiceDescriptionImporter class.<br>\r\n<br>\r\nI feel we can easily add code to clean up the temporary files at program exit...<br>\r\n<br>\r\nAjai<br>\r\n",
+    "PostedDate": "2008-08-10T07:11:59.087-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I love this tool!  I use it all the time in developments and staging environements but in production i an error message and No connection could be made because the target machine actively refused ipaddress:port at System.Web.Services.DiscoveryClientProtocol.DiscoverAny(string url)\n\nwould love to be able to use in all environments and therefore may not need to create a test project to test my web services.  seems like it should work if i can create a test project that does.  Maybe you have a quick fix for me :-)\n\nthanks so much for this awesome tool.",
+    "LastUpdatedDate": "2014-04-09T09:57:44.46-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "wizdl",
+    "ReportedDate": "2013-04-24T15:39:28.197-07:00",
+    "Status": {
+      "Name": "Active",
+      "Id": 2
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "System.InvalidOperationException the document was understood but it could not be processed",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 34004
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi,\r\n\r\nactually at this point the core of wizdl uses Microsoft DISCO Web discovery service. The error you've got is due to firewall restrictions or no dynamic discovery service listing.\r\n\r\nThis article http://msdn.microsoft.com/en-us/magazine/cc302073.aspx, part DISCO and Dynamic Discovery explains how to enable dynamic discovery, but I highly discourage you from doing so on production environment.\r\n\r\nThere is wizdl v2.0 in development, release planned on May '13 where wizdl will parse tag by tag published wsdl and schema.\r\n\r\nJakub",
+      "PostedDate": "2013-04-27T05:38:19.513-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-04-27T05:44:02.21-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-04-09T09:57:44.46-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

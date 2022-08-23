@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "115624",
+    "ThreadId": "34823",
+    "Html": "1. I would like to have colour coded XML results or, at least, formatted XML outputs, to make it easier to understand the results. <br>\r\n2. A viewer for Datasets/DataTables, just like the VS2005, would also be nice to have.<br>\r\n3. Ability to &quot;record&quot; or pin some of the request properties, to be used in subsequent calls to other methods that have the same request properties. This is very usefull for web services that require on or more parameters with a session ID in every call.<br>\r\n<br>\r\nI could help.<br>\r\nAll the best.<br>\r\n",
+    "PostedDate": "2008-09-03T05:30:55.827-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "993771",
+    "ThreadId": "34823",
+    "Html": "\r\n<p>Hi,</p>\r\n<p>thank You for yours suggestions, I'm reviewing them as well as known bugs for now and proposing a roadmap therefore.</p>\r\n<ol>\r\n<li>As the first step I would just go with the formatted XML, this can be done fairly quickly with System.Xml.XmlTextWriter class.\r\n</li><li>This would be extremely useful feature I suppose. I would also extend this point to data tables for input data.\r\n</li><li>This could done via second point where you could create a template for instance.\r\n</li></ol>\r\n<p>Again thanks for suggestions and looking forward for your reply.</p>\r\n<p>Regards,</p>\r\n<p>Jakub</p>\r\n",
+    "PostedDate": "2013-01-29T10:22:09.55-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1029063",
+    "ThreadId": "34823",
+    "Html": "This discussion has been copied to a work item. Click <a href=\"https://wizdl.codeplex.com/workitem/33958\" rel=\"nofollow\">here</a> to go to the work item and continue the discussion.<br />\n",
+    "PostedDate": "2013-04-11T08:49:27.983-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

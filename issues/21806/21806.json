@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I would like to use this tool on our internal webservices that we develop .... but am receiving  error when i try to load the service\n{\"The request failed with HTTP status 401: Unauthorized.\"}\n\t\tStackTrace\t\"   at System.Web.Services.Discovery.DiscoveryClientProtocol.Download(String& url, String& contentType)\\r\\n   at System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoverAny(String url)\\r\\n   at WebServices.UI.CustomProxyGenerator.ImportServiceDescription(String url) in C:\\\\software\\\\Wizdl\\\\wizdl-v1-src\\\\wizdl\\\\CustomProxyGenerator.cs:line 287\\r\\n   at WebServices.UI.CustomProxyGenerator.CreateAssembly(String url) in C:\\\\software\\\\Wizdl\\\\wizdl-v1-src\\\\wizdl\\\\CustomProxyGenerator.cs:line 49\\r\\n   at WebServices.UI.WebService.GetServices(String url) in C:\\\\software\\\\Wizdl\\\\wizdl-v1-src\\\\wizdl\\\\WebService.cs:line 71\\r\\n   at WebServices.UI.Form1.btnLoad_Click(Object sender, EventArgs e) in C:\\\\software\\\\Wizdl\\\\wizdl-v1-src\\\\wizdl\\\\Form1.cs:line 323\"\tstring",
+    "LastUpdatedDate": "2014-04-09T09:57:34.453-07:00",
+    "PlannedForRelease": "wizdl v1.2",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "wizdl",
+    "ReportedDate": "2009-03-26T15:40:14.2-07:00",
+    "Status": {
+      "Name": "Active",
+      "Id": 2
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "401 unauthorized for webservices that do not allow anonymous access",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 21806
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

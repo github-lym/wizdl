@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "using  the same message name of an operation output in another operation throws (when loading wsdl) :\nThe Xml Element references a method and a type, change the message name. SoapUI executes the method without any error",
+    "LastUpdatedDate": "2014-08-30T02:46:52.71-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "wizdl",
+    "ReportedDate": "2014-08-30T02:45:27.037-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Message Name conflict",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 35516
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

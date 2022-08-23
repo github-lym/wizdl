@@ -1,0 +1,59 @@
+[
+  {
+    "Id": "0",
+    "Name": "wizdl v1 source and binary",
+    "DevelopmentStatus": "Stable",
+    "Description": "wizdl v1 source and binary",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2009-04-29T21:53:47.32-07:00",
+    "Files": [
+      {
+        "Id": "b9a10661-1803-4776-a7f6-15598c5051d1",
+        "FileName": "wizdl.exe",
+        "Url": "./0/b9a10661-1803-4776-a7f6-15598c5051d1",
+        "Type": "Application",
+        "UploadDate": "2008-08-09T23:32:25.833-07:00"
+      },
+      {
+        "Id": "21ce4d45-cb11-4642-8aa1-3ab1a8bbe915",
+        "FileName": "wizdl-v1-src.zip",
+        "Url": "./0/21ce4d45-cb11-4642-8aa1-3ab1a8bbe915",
+        "Type": "Source Code",
+        "UploadDate": "2008-08-09T23:32:27.94-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "1",
+    "Name": "wizdl v1.2",
+    "DevelopmentStatus": "Planning",
+    "Description": "Goals:\n* Eliminate issue with authentication: [workitem:HTTP Error 401 Unauthorized|21806]",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2013-01-29T09:57:57.113-08:00",
+    "Files": []
+  },
+  {
+    "Id": "2",
+    "Name": "wizdl v1.1 (added file save and load support)",
+    "DevelopmentStatus": "Stable",
+    "Description": "Complex calls can be configured just once and saved to a file which can then be reloaded to invoke methods easily",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2009-12-11T07:48:53.603-08:00",
+    "Files": [
+      {
+        "Id": "8744f97d-53cc-4c97-a9c1-2957fa30045c",
+        "FileName": "wizdl.exe",
+        "Url": "./2/8744f97d-53cc-4c97-a9c1-2957fa30045c",
+        "Type": "Application",
+        "UploadDate": "2009-04-23T22:19:33.24-07:00"
+      },
+      {
+        "Id": "a06b551f-dc90-4a94-af93-913f7afd4609",
+        "FileName": "wizdl.zip",
+        "Url": "./2/a06b551f-dc90-4a94-af93-913f7afd4609",
+        "Type": "Source Code",
+        "UploadDate": "2009-04-23T22:24:01.54-07:00"
+      }
+    ]
+  }
+]
